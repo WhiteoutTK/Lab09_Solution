@@ -29,10 +29,10 @@
             }
 
             #messageBox {
-                color: red;
+                color: purple;
                 text-align: center;
                 border-radius: 5px;
-                background-color: white;
+                background-color: grey;
                 padding: 1px;
                 font-weight: bold;
                 width: 250px;
@@ -40,10 +40,10 @@
                 top: -300px;
                 left: 50%;
                 transform: translateX(-50%);
-                animation: messageDropdown 4.0s ease-in-out;
-                -webkit-box-shadow: 4px 4px 11px 2px #ccc; 
-                -moz-box-shadow:    4px 4px 11px 2px #ccc; 
-                box-shadow:         4px 4px 11px 2px #ccc;  
+                animation: messageDropdown 4.5s ease-in-out;
+                -webkit-box-shadow: 5px 5px 11px 4px #ccc; 
+                -moz-box-shadow:    5px 5px 11px 4px #ccc; 
+                box-shadow:         5px 5px 11px 4px #ccc;  
 
             }
 
@@ -76,7 +76,7 @@
             }
 
             input[type=submit]:hover {
-                background-color: #45a049;
+                background-color: #ddd;
             }
 
             .usersTable {
@@ -102,7 +102,7 @@
 
             .formContainer {
                 border-radius: 5px;
-                background-color: #f2f2f2;
+                background-color: white;
                 padding: 20px;
             }
 
